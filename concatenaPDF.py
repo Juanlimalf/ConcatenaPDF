@@ -42,5 +42,6 @@ def main():
  
     caminho = input('coloque o caminho do arquivo: ')
     response = concatenaPdf(caminho)
+    print("Processo Finalizado")
 
 main()
